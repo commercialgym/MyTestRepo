@@ -1,10 +1,13 @@
 /*
 * FILE : trying to create a merge conflict
+* FILE : changing this line from the branch
 * PROJECT : SENG1000 - Focus assignment #7
 * PROGRAMMER : Alexia Tu
 * FIRST VERSION : 03-21-2024
 * DESCRIPTION :
-    * Making changes to this project in the branch before merging it into the main branch. 
+    * Making changes to this project in the branch before merging it into the main branch. Adding even more changes because 
+    * I think i did this in the wrong order. When I went to do the pull request the main and the branch were identical, I think
+    * that means I have to make changes here again.
 */
 
 #include <stdio.h>
@@ -45,16 +48,13 @@ int main(void)
         return 0;
     }
 
-
-    //find and declare number of elements in kBinaryData
-    size_t numBinaryElements = sizeof(kBinaryData) / sizeof(kBinaryData[0]);
     //used to text if element to be written to file is an even number
     const unsigned short kEvenNumber = 2;
     //number of elements to append to the file
     const size_t kNumElementsToWrite = 1;
 
     //write to binary file, only using even numbers from const array
-    for (size_t binaryIndex = 0; binaryIndex < numBinaryElements; binaryIndex++)
+    for (size_t binaryIndex = 0; binaryIndex < kNumOfElements; binaryIndex++)
     {
         if (kBinaryData[binaryIndex] % kEvenNumber == 0)
         {
