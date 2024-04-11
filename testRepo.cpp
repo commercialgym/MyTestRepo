@@ -4,16 +4,15 @@
 * PROGRAMMER : Alexia Tu
 * FIRST VERSION : 03-21-2024
 * DESCRIPTION :
-    * Writing two lines to myTextFile.txt and also looping through a const array and putting only
-    * even numbers from that array into a binary file called myEvenDataList.data. Inludes error
-    * checking for each file related function.
+    * Making changes to this project in the branch before merging it into the main branch. 
 */
 
 #include <stdio.h>
+#include <string.h>
 #pragma warning(disable: 4996)
 
-//used for writing to the binary file
-const unsigned short kBinaryData[] = { 26946, 24942, 31090, 25632, 29793, 8289, 28518, 8306, 28537, 33141, 39308 };
+const int kNumOfElements = 11;
+const unsigned short kBinaryData[kNumOfElements] = { 26946, 24942, 31090, 25632, 29793, 8289, 28518, 8306, 28537, 33141, 39308 };
 
 int main(void)
 {
