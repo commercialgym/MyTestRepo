@@ -1,9 +1,10 @@
 /*
 * FILE : trying to create a merge conflict
+* making a change
 * FILE : changing this line from the branch
 * PROJECT : SENG1000 - Focus assignment #7
 * PROGRAMMER : Alexia Tu
-* FIRST VERSION : 03-21-2024
+* FIRST VERSION : making yet another change from main
 * DESCRIPTION :
     * Making changes to this project in the branch before merging it into the main branch. Adding even more changes because 
     * I think i did this in the wrong order. When I went to do the pull request the main and the branch were identical, I think
